@@ -1,4 +1,4 @@
-import './faceauth.css'
+import './index0.css'
 // src/pages/FaceAuth.tsx
 import React, { useState, useRef } from 'react';
 
