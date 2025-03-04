@@ -9,6 +9,7 @@ import Profile from './pages/Profile';
 import ConcertDetails from './pages/ConcertDetails';
 import Checkout from './pages/Checkout';
 import FaceAuth from './pages/FaceAuth';
+import Registration from './pages/Registration'; // Add this import
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
         <main className="flex-1 container mx-auto px-4 py-6 mb-16">
           <Routes>
             <Route path="/" element={<Home />} />
+            {/* Add this new route */}
+            <Route path="/register" element={<Registration />} />
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/market" element={<TicketMarket />} />
             <Route path="/profile" element={<Profile />} />
